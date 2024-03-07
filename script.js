@@ -165,8 +165,8 @@ function checkCollisionT3() {
 function increaseSpeed() {
     if (timeIntervalObstacle > 700) {
         clearInterval(intervalObstacle);
-        btanim -= 900;
-        cacanim -= 300;
+        btanim -= 90;
+        cacanim -= 30;
         timeIntervalObstacle -= 49;
         b2.style.animationDuration = btanim + "ms";
         b3.style.animationDuration = btanim + "ms";
